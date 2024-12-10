@@ -23,7 +23,7 @@ int main() {
   node1->getStudent()->printStudent();
 
   cout << "Student in node2";
-  node1->getNext()->getStudent->printStudent();
+  node1->getNext()->getStudent()->printStudent();
 
   delete node1;
   delete node2;
