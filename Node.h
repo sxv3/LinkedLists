@@ -1,6 +1,8 @@
 #ifndef NODE_H
 #define NODE_H
 
+#include "Student.h"
+
 //Node header file.
 //Created by Tai Wong on December 9th
 
