@@ -15,7 +15,7 @@ Node* Node::getNext() {
 }
 
 //get pointer to student obj
-Student* getStudent() {
+Student* Node::getStudent() {
   return student;
 }
 
