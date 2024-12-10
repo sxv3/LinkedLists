@@ -9,7 +9,7 @@ using namespace std;
 int main() {
   //create student objects for testing
   Student* student1 = new Student("Tai");
-  Student student2 = new Student("Nathaniel");
+  Student* student2 = new Student("Nathaniel");
 
   //create node for linked list
   Node* node1 = new Node(student1);
