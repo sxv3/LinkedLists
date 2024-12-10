@@ -1,4 +1,5 @@
 #include "Node.h"
+#include "Student.h"
 
 //constuctor
 Node::Node(Student* student) : student(student), node(nullptr) {}
