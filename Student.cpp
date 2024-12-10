@@ -3,6 +3,9 @@
 #include <iostream>
 
 //Student.cpp file for the Student class, has a constructor and returns the name of the student class
+//Created by Tai Wong on Dec 9th
+
+using namespace std;
 
 //constructor
 Student::Student(const char* inputtedName) {
@@ -13,4 +16,9 @@ Student::Student(const char* inputtedName) {
 //return name
 const char* Student::getName() {
   return name;
+}
+
+//print student details
+void Student::printStudent() {
+  cout << name << end;
 }
