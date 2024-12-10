@@ -20,5 +20,5 @@ const char* Student::getName() {
 
 //print student details
 void Student::printStudent() {
-  cout << name << end;
+  cout << name << endl;
 }
